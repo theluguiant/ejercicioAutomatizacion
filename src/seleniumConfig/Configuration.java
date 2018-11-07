@@ -14,6 +14,10 @@ public class Configuration {
 		this.driver = new ChromeDriver();
 	}
 	
+	public void shutDownDriver() {
+		this.driver.quit();
+	}
+	
 	public void setPropertyWebdriver() {
 		System.setProperty("webdriver.chrome.driver","selenium-libs\\selenium-java-3.14.0\\chromedriver.exe");
 	}
