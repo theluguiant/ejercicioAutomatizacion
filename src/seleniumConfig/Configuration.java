@@ -9,11 +9,13 @@ public class Configuration {
 	public ChromeDriver driver;
 	public String url;
 	
+//	Inicializacion de selenium 
 	public Configuration() {
 		this.setPropertyWebdriver();
 		this.driver = new ChromeDriver();
 	}
 	
+//	cerrar un webdriver
 	public void shutDownDriver() {
 		this.driver.quit();
 	}
