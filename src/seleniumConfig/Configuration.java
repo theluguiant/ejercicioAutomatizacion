@@ -33,4 +33,8 @@ public class Configuration {
 	public String getUrl() {
 		return this.url;
 	}
+	
+	public String msn() {
+		return "hola mundo";
+	}
 }
