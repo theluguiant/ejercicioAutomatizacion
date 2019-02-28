@@ -37,5 +37,4 @@ public class Configuration {
 	public String msn() {
 		return "hola mundo";
 	}
-	
 }
